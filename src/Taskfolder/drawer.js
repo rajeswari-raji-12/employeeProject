@@ -69,7 +69,7 @@ class drawerTable extends React.Component {
       <div>
         <div style={{marginBottom:"20px",marginLeft:"3px",marginRight:"3px"}}>
         <Button onClick={this.showDrawer}><Icon type="plus"/>
-         Technology
+         Technologies
         </Button><br />
         </div>
         <Table
