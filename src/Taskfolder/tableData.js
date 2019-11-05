@@ -48,7 +48,7 @@ class data extends Component {
      this.props.setSelectedListValue(this.state.value)
  });
   }else{
-alert("technology already exist");
+alert("technology is repeated");
   }
 
 //  Notification('success','Added sucessfully');
