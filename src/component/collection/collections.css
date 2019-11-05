@@ -1,0 +1,60 @@
+.newprod{
+    text-align: center;
+}
+.text{
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+}
+.bgimg{
+    background-image: url(image/offer-bg.png);
+    height:104vh;
+    padding-left: 33%;
+    padding-top: 17%;
+    line-height: 63px;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    }
+
+    .menscollec{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 0px 0 10px 0;
+    font-family: "Roboto",sans-serif;        
+    }
+
+    .discount{
+        font-size:100px;
+        font-weight: 700;
+        margin-bottom: 100px;
+        color: #2a2a2a;
+        margin-bottom: 52px;
+        font-family: "Roboto",sans-serif;
+    }
+
+    .newpro{
+           padding-top:1px;
+    }
+
+    .offer {
+        font-size: 17px;
+        font-weight: 500;
+        font-family: "Roboto",sans-serif; 
+    }
+     
+    #btnn:hover {
+        color: #71cd14;
+        background-color: white;
+     } 
+    #btnn {
+            padding: 0px 35px;
+            background-color: #71cd14;
+            color: white;
+            font-family: "Roboto",sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+            border: 1px solid #71cd14;
+            border-radius: 6px;
+            height: 49px; 
+    }

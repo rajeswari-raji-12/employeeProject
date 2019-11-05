@@ -1,0 +1,10 @@
+.icons{
+    display: inline-flex;
+    padding-top: 28px;
+}
+
+.icons:hover
+{
+    color: #71cd14;
+
+}

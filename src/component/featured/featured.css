@@ -1,0 +1,46 @@
+ .money{
+border: 1px solid #bbbbbb;
+padding: 20px 0px;
+margin: 20px;
+text-align: center;
+
+}
+.head1{
+    text-align: center;
+}
+#moneytitle{
+    color: #000000;
+    font-weight: bold;
+    padding: 10px;
+}
+#price{
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+}
+#money35{
+    text-decoration: line-through;
+    color: #999999;
+    font-size: 16px;
+    padding: 20px;
+}
+.featuredCards{
+    margin: 100px 0px 0px;
+}
+.featuredMoney{
+    margin: 50px 0px 100px;
+}
+#cardName{
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    padding: 10px 0px;
+}
+#moneytxt,#discription {
+    color: #999999;
+    font-weight: 500;
+}
+#icon{
+    font-size: 28px;
+    margin: 10px 0px;
+}

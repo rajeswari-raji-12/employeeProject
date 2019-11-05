@@ -1,0 +1,44 @@
+
+.main {
+    padding-top: 18%;
+    padding-left: 10%;
+    background-image: url('./images/main.jpg');
+    background-position: center;
+    height: 100vh;
+    
+}
+.h1{
+    font-size: 52px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 5px;
+}
+
+.h4{
+    font-weight: bold;
+}
+.h4,.h1,.p{
+    color:#fafafa;
+}
+
+.p{
+    font-size: 19px;
+    margin-bottom: 40px;
+}
+
+#btn:hover {
+    color: #71cd14;
+    background-color: white;
+ } 
+#btn {
+        padding: 0px 27px;
+        background-color: #71cd14;
+        color: white;
+        font-family: "Roboto",sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        border: 1px solid #71cd14;
+        border-radius: 6px;
+        height: 47px; 
+}

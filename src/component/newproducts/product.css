@@ -1,0 +1,30 @@
+.new{
+    text-align: center;
+    font-family: "Heebo",sans-serif;
+    color: #2a2a2a;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+.shirt{
+    background-color: #eee;
+    padding: 158px 0px;
+    width: 590px;
+}
+.btn{
+background-color: #71cd14;
+height: 50px;
+width:175px;
+color: #fff;
+border-radius:5px;
+font-weight:"bold";
+}
+.amt{
+    padding:10px;
+}
+#menu{
+    position: relative;
+    top:253px;
+}
+#card{
+    margin-top: 50px;
+}

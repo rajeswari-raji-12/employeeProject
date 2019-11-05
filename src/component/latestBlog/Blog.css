@@ -1,0 +1,26 @@
+.cards{
+    font-size: 16px;
+    padding-left: 13%;
+}
+
+.callImage:hover h2,.callImage:hover h4,#admin:hover,.cards:hover
+{
+    color: #71cd14;
+
+}
+
+/* .callImage img {
+    transition: all 0.3s;
+    position: absolute;
+  }
+  
+  .callImage:hover img {
+    transform: scale(1.2);
+  }
+  
+.callImage {
+  width: 500px;
+  position: absolute;
+  border: 1px solid transparent;
+  overflow: hidden;
+} */
