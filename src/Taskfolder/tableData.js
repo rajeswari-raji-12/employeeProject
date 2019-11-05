@@ -5,41 +5,31 @@ import {tableRow} from './rowData';
 // import Notification from './notification';
 
 // rowSelection object indicates the need for row selection
-let obj = [];
-let rowData;
-// let tableArray;
+// let obj = [];
+// let rowData;
+// // let tableArray;
 
-// let isEnabled;
-const rowSelection = {
-  onChange: (selectedRowKeys, selectedRows) => {
-    rowData = selectedRows;
-    obj = rowData ; 
-    console.log(`selectedRowKeys: ${selectedRowKeys}`,obj);
-  }
-}; 
+// // let isEnabled;
+// const rowSelection = {
+//   onChange: (selectedRowKeys, selectedRows) => {
+//     rowData = selectedRows;
+//     obj = rowData ; 
+//     console.log(`selectedRowKeys: ${selectedRowKeys}`,obj);
+//   }
+// }; 
 
 class data extends Component {
   constructor(){
     super();
      this.state={
         value:[],
-        
-        
      }
   }
   info = (record) => {
     message.success(`${record.name} \u00A0 Added Successfully`);
   };
-    // arrayFilter=()=>{
-     
-    //   tableArray.map((tech,key)=>
-    //          (tech.indexOf(tech.key) < 0) ? filterArray.push(tech): alert("record already exist")
-    //            )
-    // }
- 
-
+    
  handleAdd = (record,index) => {
-  
   const filterTechnology= this.state.value.filter(tech=>tech.key==record.key)
   if(filterTechnology.length==0){
     this.setState({
@@ -50,12 +40,9 @@ class data extends Component {
   }else{
 alert("technology already exist");
   }
-
-//  Notification('success','Added sucessfully');
 this.info(record)
 }
 
-  
 render(){
  
   const columnData = 
@@ -78,7 +65,6 @@ render(){
     return(
    <div>   
    <h2>Technologies</h2>
-      {/* <Button type="primary" onClick={this.addRow} style={{ marginTop:"17px",marginBottom:'21px' }}>Move all</Button> */}
       <Table
       bordered
      columns={columnData}
